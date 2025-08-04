@@ -33,3 +33,15 @@ Model Evaluation is a crucial step in the machine learning (ML) workflow. It tel
 - Identify issues of overfitting or underfitting.
 - Enable fair comparison between models.
 - Guide hyperparameter tuning and model selection.
+
+## Purpose of Model Evaluation
+ 1. ### Quantify Predictive Power
+    - Measure how well the model’s outputs match ground truth.
+ 2. ### Diagnose Model Issues
+    - Detect bias, variance, or data leakage.
+ 3. ### Facilitate Model Selection
+    - Compare competing approaches (e.g., random forest vs. neural networks).
+ 4. ### Hyperparameter Tuning
+    - Systematically optimize model settings (e.g., learning rate, tree depth).
+ 5. ### Iterative Improvement
+    - Refine models based on evaluation feedback (e.g., feature engineering).
