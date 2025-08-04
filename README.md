@@ -45,3 +45,20 @@ Model Evaluation is a crucial step in the machine learning (ML) workflow. It tel
     - Systematically optimize model settings (e.g., learning rate, tree depth).
  5. ### Iterative Improvement
     - Refine models based on evaluation feedback (e.g., feature engineering).
+
+## Key Evaluation Techniques
+
+### 1. Train-Test Split
+- Split data into:
+  - **Training set (70-80%)** – Used to train the model.
+  - **Test set (20-30%)** – Used to evaluate performance.
+- **Limitation**: Small datasets may lead to unreliable results.
+
+### 2. Cross-Validation (k-Fold CV)
+- Divides data into `k` folds (e.g., `k=5`).
+- Train on `k-1` folds, test on the remaining fold.
+- Repeat `k` times and average results.
+- **Advantage**: Reduces variance in performance estimation.
+
+### 3. Hold-Out Validation
+- Similar to train-test split but often uses a validation set for tuning hyperparameters before final testing.
