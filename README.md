@@ -62,3 +62,64 @@ Model Evaluation is a crucial step in the machine learning (ML) workflow. It tel
 
 ### 3. Hold-Out Validation
 - Similar to train-test split but often uses a validation set for tuning hyperparameters before final testing.
+
+
+## 🧪 Types of Evaluation Metrics
+
+Evaluation metrics vary depending on the type of machine learning problem.
+
+---
+
+### 📊 1. Classification  
+**Examples:** Spam Detection, Fraud Detection
+
+- **Accuracy** – Overall correctness  
+  \[
+  \text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}
+  \]
+
+- **Precision** – Correct positive predictions  
+  \[
+  \text{Precision} = \frac{TP}{TP + FP}
+  \]
+
+- **Recall (Sensitivity)** – Capturing all actual positives  
+  \[
+  \text{Recall} = \frac{TP}{TP + FN}
+  \]
+
+- **F1-Score** – Balance between precision and recall  
+  \[
+  \text{F1} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
+  \]
+
+- **ROC-AUC Score** – Area under the ROC curve (True Positive Rate vs. False Positive Rate)
+
+---
+
+## 📈 2. Regression  
+**Examples:** House Price Prediction, Sales Forecasting
+
+- **Mean Absolute Error (MAE)**  
+  \[
+  \text{MAE} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|
+  \]
+
+- **Mean Squared Error (MSE)**  
+  \[
+  \text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
+  \]
+
+- **Root Mean Squared Error (RMSE)**  
+  \[
+  \text{RMSE} = \sqrt{\text{MSE}}
+  \]
+
+- **R² Score (Coefficient of Determination)**  
+  \[
+  R^2 = 1 - \frac{\sum (y_i - \hat{y}_i)^2}{\sum (y_i - \bar{y})^2}
+  \]
+
+---
+
+> ✅ Tip: Use classification metrics for discrete output tasks and regression metrics for continuous output tasks.
