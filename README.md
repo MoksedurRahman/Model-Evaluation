@@ -8,23 +8,23 @@ Model Evaluation is a crucial step in the machine learning (ML) workflow. It tel
 - Optimize Resources: Prevent the deployment of poorly performing models, saving time and computational resources.
 
 ## Why Evaluate Models?
-1. Measure Performance
+### 1. Measure Performance
     - Quantify key metrics (e.g., accuracy, precision, recall, F1-score, ROC-AUC) to assess predictive quality.
     - Understand strengths and weaknesses for specific use cases.
 
-2. Compare Models
+### 2. Compare Models
     - Benchmark different algorithms or architectures.
     - Identify the best-performing model for deployment.
 
-3. Ensure Generalization
+### 3. Ensure Generalization
     - Detect overfitting (high training performance but poor on unseen data) or underfitting (poor performance on both training and test data).
     - Validate robustness using techniques like cross-validation.
 
-4. Optimize Resources
+### 4. Optimize Resources
     - Avoid wasting time/compute on ineffective models.
     - Prioritize models with the best cost-performance trade-off.
 
-5. Guide Decision-Making
+### 5. Guide Decision-Making
     - Provide evidence for stakeholders (e.g., business, engineering teams).
     - Ensure alignment with project goals (e.g., speed vs. accuracy).
 
