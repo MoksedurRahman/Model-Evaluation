@@ -74,7 +74,7 @@ Evaluation metrics vary depending on the type of machine learning problem.
 **Examples:** Spam Detection, Fraud Detection
 
 - **Accuracy** – Overall correctness  
-  -- Accuracy = (TP + TN) / (TP + TN + FP + FN)
+    Accuracy = (TP + TN) / (TP + TN + FP + FN)
 
 - **Precision** – Correct positive predictions  
   \[
