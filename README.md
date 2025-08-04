@@ -77,19 +77,13 @@ Evaluation metrics vary depending on the type of machine learning problem.
     Accuracy = (TP + TN) / (TP + TN + FP + FN)
 
 - **Precision** – Correct positive predictions  
-  \[
-  \text{Precision} = \frac{TP}{TP + FP}
-  \]
+    Precision = TP / (TP + FP)
 
 - **Recall (Sensitivity)** – Capturing all actual positives  
-  \[
-  \text{Recall} = \frac{TP}{TP + FN}
-  \]
+    Recall = TP / (TP + FN)
 
 - **F1-Score** – Balance between precision and recall  
-  \[
-  \text{F1} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
-  \]
+    F1 = 2 * (Precision * Recall) / (Precision + Recall)
 
 - **ROC-AUC Score** – Area under the ROC curve (True Positive Rate vs. False Positive Rate)
 
@@ -99,25 +93,17 @@ Evaluation metrics vary depending on the type of machine learning problem.
 **Examples:** House Price Prediction, Sales Forecasting
 
 - **Mean Absolute Error (MAE)**  
-  \[
-  \text{MAE} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|
-  \]
+    MAE = `(1/n) * Σ
 
 - **Mean Squared Error (MSE)**  
-  \[
-  \text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
-  \]
+    MSE = (1/n) * Σ(y_true - y_pred)²
 
 - **Root Mean Squared Error (RMSE)**  
-  \[
-  \text{RMSE} = \sqrt{\text{MSE}}
-  \]
+    RMSE = √MSE
 
 - **R² Score (Coefficient of Determination)**  
-  \[
-  R^2 = 1 - \frac{\sum (y_i - \hat{y}_i)^2}{\sum (y_i - \bar{y})^2}
-  \]
-
+    R² (R-Squared) = 1 - (Σ(y_true - y_pred)² / Σ(y_true - y_mean)²)
+  
 ---
 
 > ✅ Tip: Use classification metrics for discrete output tasks and regression metrics for continuous output tasks.
