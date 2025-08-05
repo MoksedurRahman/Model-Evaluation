@@ -52,7 +52,7 @@ Model Evaluation is a crucial step in the machine learning (ML) workflow. It tel
 - Split data into:
   - **Training set (70-80%)** – Used to train the model.
   - **Test set (20-30%)** – Used to evaluate performance.
-- **Limitation**: Small datasets may lead to unreliable results.
+  - **Limitation**: Small datasets may lead to unreliable results.
 
 ### 2. Cross-Validation (k-Fold CV)
 - Divides data into `k` folds (e.g., `k=5`).
